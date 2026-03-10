@@ -1,0 +1,14 @@
+.category-item {
+  border: 2px solid grey;
+  transition:
+    background-color 150ms ease,
+    border-color 150ms ease;
+  cursor: pointer;
+}
+
+/* Hover the circle itself (no space) */
+.category-item:hover {
+  background-color: rgb(0, 89, 255);
+  border-color: rgb(0, 89, 255);
+  color: white;
+}
